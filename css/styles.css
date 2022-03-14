@@ -456,7 +456,7 @@ span.text {display:inline-block}
     box-shadow: 0 0 10px 5px #0065fc;
     cursor: pointer;
 }
-#img1 /*ICONES DES FILTRES*/
+.img1 /*ICONES DES FILTRES*/
 {
     border: 12px solid #deebff;
     background: #deebff;
