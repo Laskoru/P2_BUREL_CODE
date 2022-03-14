@@ -448,6 +448,7 @@ span.text {display:inline-block}
     border-left-color: #deebff;
     border-radius: 50px 50px 50px 50px;
     margin-right: 15px;
+    transition: 400ms;
 
 }
 .element4:hover
@@ -528,8 +529,7 @@ h3
     margin: 7px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     line-height: 10px;
-
-
+    transition: 400ms;
 }
 .card:hover
 {
@@ -605,6 +605,7 @@ h3
     font-family: "railway";
     margin: 2%;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: 400ms;
 }
 .card-pop:hover
 {
@@ -653,6 +654,7 @@ h3
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 5%;
     padding-bottom: 1px;
+    transition: 400ms;
 }
 .act:hover
 {
