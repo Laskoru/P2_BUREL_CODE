@@ -559,6 +559,10 @@ h3
    display: flex;
    margin-right: 80%;
 }
+.fa-arrow-trend-up
+{
+    margin-left: 80px;
+}
 .intro-populaire
 {
     font-size: 1.8em;
@@ -811,6 +815,10 @@ span.text {display:none}
 .pointinfo
 {
     font-size: 2em;
+}
+.fa-arrow-trend-up
+{
+    margin-left: 80px;
 }
 .intro-populaire
 {
