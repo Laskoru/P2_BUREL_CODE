@@ -8,25 +8,22 @@
         <title>Booki</title>
     </head>
     <body>
-    <header>
-        <div class="flex nav">
+        <nav class="flex">
             <div class="nav-logo">   
-                <img src="./images/logo/Booki.png" alt="logo flex" class="logo"/>
+                <img src="./images/logo/Booki.png" alt="logo" class="logo"/>
             </div>
             <div class="nav-element flex">    
             <div class="element">
-                <h2 href="#HOTELS">Hébergements</h2>
+                <h2><a class="lien" href="#HOTELS">Hébergements</a></h2>
             </div>
             <div class="element">
-                <h2 href="#ACTIVITES">Activités</h2>
+                <h2><a class="lien" href="#ACTIVITES">Activités</a></h2>
             </div>
             </div>
-        </div>
-    </header>
-    
+        </nav>
         <div class="intro">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1><br>
-            <h2>En plein centre ville ou en pleine nature</h2><br>
+            <h2 class="intro-small">En plein centre ville ou en pleine nature</h2><br>
         </div>
 
                 
@@ -50,15 +47,15 @@
                                 <span class="textmenu">Animaux autorisés</span></div></li>
                     </ul>
                 </div>
-                <div class="pointinfo">
-                    <i class="fa fa-info blue"></i> Plus de 500 logements sont disponibles dans cette ville
+                <div id="HOTELS" class="pointinfo">
+                    <i class="fa fa-info blue"></i> <div class="pointinfo2">Plus de 500 logements sont disponibles dans cette ville</div>
                 </div>
             <div class="bloc-hotel flex">        
-            <div class="hebergements flex background-grey">
-                <span id="HOTELS" class="intro-hebergement">Hébergements à Marseille</span>
+            <div class="hebergements flex">
+                <span class="intro-hebergement">Hébergements à Marseille</span>
                 <div class="card">
                 <a>
-                    <div class="card-image">
+                    <div>
                         <img src="./images/hebergements/resized/aubergelacannebiere.jpg" class="card-hotel" alt="Photo de l'auberge La Cannebière">
                     </div>
                     <div class="card-body">
@@ -66,7 +63,7 @@
                             <h3>Auberge La Cannebière</h3>
                         </div>
                         <div class="card-price">
-                            Nuit à partir de <strong>25€</strong>
+                            Nuit à partir de <bold>25€</bold>
                         </div>
                         <div class="card-rating">
                             <div class="notes flex">
@@ -80,10 +77,10 @@
                     </div>
                 </a>
                 
-            </div>
+                </div>
             <div class="card">
                 <a>
-                    <div class="card-image">
+                    <div>
                         <img src="./images/hebergements/resized/hotelduport.jpg" class="card-hotel" alt="Photo de l'hôtel du port">
                     </div>
                     <div class="card-body">
@@ -91,7 +88,7 @@
                             <h3>Hôtel du port</h3>
                         </div>
                         <div class="card-price">
-                            Nuit à partir de <strong>52€</strong>
+                            Nuit à partir de <bold>52€</bold>
                         </div>
                         <div class="card-rating">
                             <div class="notes flex">
@@ -108,7 +105,7 @@
             </div>
             <div class="card">
                 <a>
-                    <div class="card-image">
+                    <div>
                         <img src="./images/hebergements/resized/hotellesmouettes.jpg" class="card-hotel" alt="Photo de l'hôtel les mouettes">
                     </div>
                     <div class="card-body">
@@ -116,7 +113,7 @@
                             <h3>Hôtel les mouettes</h3>
                         </div>
                         <div class="card-price">
-                            Nuit à partir de <strong>76€</strong>
+                            Nuit à partir de <bold>76€</bold>
                         </div>
                         <div class="card-rating">
                             <div class="notes flex">
@@ -133,7 +130,7 @@
             </div>
             <div class="card">
                 <a>
-                    <div class="card-image">
+                    <div>
                         <img src="./images/hebergements/resized/hoteldelamer.jpg" class="card-hotel" alt="Photo de l'hôtel de la mer">
                     </div>
                     <div class="card-body">
@@ -141,7 +138,7 @@
                             <h3>Hôtel de la mer</h3>
                         </div>
                         <div class="card-price">
-                            Nuit à partir de <strong>46€</strong>
+                            Nuit à partir de <bold>46€</bold>
                         </div>
                         <div class="card-rating">
                             <div class="notes flex">
@@ -158,7 +155,7 @@
             </div>
             <div class="card">
                 <a>
-                    <div class="card-image">
+                    <div>
                         <img src="./images/hebergements/resized/aubergelepanier.jpg" class="card-hotel" alt="Photo de l'auberge le panier">
                     </div>
                     <div class="card-body">
@@ -166,7 +163,7 @@
                             <h3>Auberge Le Panier</h3>
                         </div>
                         <div class="card-price">
-                            Nuit à partir de <strong>23€</strong>
+                            Nuit à partir de <bold>23€</bold>
                         </div>
                         <div class="card-rating">
                             <div class="notes flex">
@@ -183,7 +180,7 @@
             </div>
             <div class="card">
                 <a>
-                    <div class="card-image">
+                    <div>
                         <img src="./images/hebergements/resized/hotelchezamina.jpg" class="card-hotel" alt="Photo de l'hôtel chez amina">
                     </div>
                     <div class="card-body">
@@ -191,7 +188,7 @@
                             <h3>Hôtel chez Amina</h3>
                         </div>
                         <div class="card-price">
-                            Nuit à partir de <strong>96€</strong>
+                            Nuit à partir de <bold>96€</bold>
                         </div>
                         <div class="card-rating">
                             <div class="notes flex">
@@ -211,18 +208,18 @@
         <div class="populaire column flex background-grey">
             <a class="intro-populaire">Les plus populaires <i class="fa-solid fa-arrow-trend-up"></i></a>
             <div class="card-pop">
-                <a>
-                    <div class="card-image">
+               
+                    <div>
                         <img src="./images/hebergements/resized/hotellesoleildumatin.jpg" class="card-hotel-pop" alt="Photo de l'hôtel le soleil du matin">
                     </div>
                     <div class="card-body-pop column flex">
-                        <div class="nomhotel">
+                        <div class="nomhotel nomhotel-pop">
                             <h4>Hôtel le soleil du matin</h4>
                         </div>
-                        <div class="card-price">
-                            Nuit à partir de <strong>128€</strong>
+                        <div class="card-price card-price-pop">
+                            Nuit à partir de <bold>128€</bold>
                         </div>
-                        <div class="card-rating">
+                        <div class="card-rating card-rating-pop">
                             <ul class="notes flex">
                                 <li><i class="fa fa-star blue"></i></li>
                                 <li><i class="fa fa-star blue"></i></li>
@@ -232,22 +229,22 @@
                             </ul>
                         </div>
                     </div>
-                </a>
+            
 
             </div>
             <div class="card-pop">
-                <a>
-                    <div class="card-image">
+               
+                    <div>
                         <img src="./images/hebergements/resized/aucoeurdeleau.jpg" class="card-hotel-pop" alt="Photo de l'hôtel au coeur de l'eau">
                     </div>
-                    <div class="card-body-pop flex">
-                        <div class="nomhotel">
+                    <div class="card-body-pop column flex">
+                        <div class="nomhotel nomhotel-pop">
                             <h4>Au coeur de l'eau Chambres d'hôtes</h4>
                         </div>
-                        <div class="card-price">
-                            Nuit à partir de <strong>71€</strong>
+                        <div class="card-price card-price-pop">
+                            Nuit à partir de <bold>71€</bold>
                         </div>
-                        <div class="card-rating">
+                        <div class="card-rating card-rating-pop">
                             <ul class="notes flex">
                                 <li><i class="fa fa-star blue"></i></li>
                                 <li><i class="fa fa-star blue"></i></li>
@@ -257,22 +254,22 @@
                             </ul>
                         </div>
                     </div>
-                </a>
+               
 
             </div>
             <div class="card-pop">
-                <a>
-                    <div class="card-image">
+     
+                    <div>
                         <img src="./images/hebergements/resized/hoteltoutbleutoutblanc.jpg" class="card-hotel-pop" alt="Photo de l'hôtel tout bleu tout blanc">
                     </div>
-                    <div class="card-body-pop flex">
-                        <div class="nomhotel">
+                    <div class="card-body-pop column flex">
+                        <div class="nomhotel nomhotel-pop">
                             <h4>Hôtel tout bleu tout blanc</h4>
                         </div>
-                        <div class="card-price">
-                            Nuit à partir de <strong>68€</strong>
+                        <div class="card-price card-price-pop">
+                            Nuit à partir de <bold>68€</bold>
                         </div>
-                        <div class="card-rating">
+                        <div class="card-rating card-rating-pop">
                             <ul class="notes flex">
                                 <li><i class="fa fa-star blue"></i></li>
                                 <li><i class="fa fa-star blue"></i></li>
@@ -282,7 +279,7 @@
                             </ul>
                         </div>
                     </div>
-                </a>
+               
 
             </div>
 
@@ -293,32 +290,32 @@
             <div class="activites flex">
                 
                 <div class="act">
-                        <img src="./images/activites/resized/vieuxport.jpg" class="imgact" alt="Photo du vieux port">
+                        <img src="./images/activites/resized/vieuxport.jpg" class="imgact big" alt="Photo du vieux port">
                         <h3 class="card-activite">Vieux Port</h3>
                 </div>
-                <div class="column flex">
-                <div class="act">
-                    <img src="./images/activites/resized/fortdepomegues.jpg" class="imgact" alt="Photo du fort de Pomegues">
+                <div class="column">
+                <div class="act margin">
+                    <img src="./images/activites/resized/fortdepomegues.jpg" class="imgact medium" alt="Photo du fort de Pomegues">
                     <h3 class="card-activite">Fort de Pomègues</h3>
                     
                 </div>
                 <div class="act">
-                        <img src=./images/activites/resized/ilesdufrioul.jpg class="imgact" alt="Photo des iles du Frioul">
+                        <img src=./images/activites/resized/ilesdufrioul.jpg class="imgact smaller" alt="Photo des iles du Frioul">
                         <h3 class="card-activite">Îles du Frioul</h3>                   
                 </div>
                 </div>
                 <div class="act">                
-                        <img src="./images/activites/resized/parcnationaldescalanques.jpg" class="imgact" alt="Photo du Parc National des Calanques">
+                        <img src="./images/activites/resized/parcnationaldescalanques.jpg" class="imgact big" alt="Photo du Parc National des Calanques">
                         <h3 class="card-activite">Parc National des Calanques</h3>
                 </div>
-                <div class="column flex">
-                    <div class="act">
-                        <img src="./images/activites/resized/notredamedelagarde.jpg" class="imgact" alt="Photo de notre dame de la garde">
+                <div class="column">
+                    <div class="act margin">
+                        <img src="./images/activites/resized/notredamedelagarde.jpg" class="imgact small" alt="Photo de notre dame de la garde">
                         <h3 class="card-activite">Notre-Dame-de-la-Garde</h3>
                     
                     </div>
                     <div class="act">                   
-                           <img src="./images/activites/resized/parclongchamp.jpg" class="imgact" alt="Photo du Parc Longchamp">
+                           <img src="./images/activites/resized/parclongchamp.jpg" class="imgact small" alt="Photo du Parc Longchamp">
                            <h3 class="card-activite">Parc Longchamp</h3>       
                     </div>
                 </div>
@@ -330,23 +327,23 @@
         <div class="fin">
         <ul class="colonne1 column flex">
             <li><h5>A propos</h5></li>
-            <li>Fonctionnement du site</li>
-            <li>Conditions générales</li>
-            <li>Données et confidentialité</li>
+            <li class="pointer">Fonctionnement du site</li>
+            <li class="pointer">Conditions générales</li>
+            <li class="pointer">Données et confidentialité</li>
         </ul>
         </div>
         <div class="fin">
         <ul class="colonne1 column flex">
             <li><h5>Nos hébergements</h5></li>
-            <li>Charte qualité</li>
-            <li>Soumettre votre hôtel</li>
+            <li class="pointer">Charte qualité</li>
+            <li class="pointer">Soumettre votre hôtel</li>
         </ul>
         </div>
-        <div class="fin">
+        <div class="fin fin3">
         <ul class="colonne1 column flex">
             <li><h5>Assistance</h5></li>
-            <li>Centre d'aide</li>
-            <li>Nous contacter</li>
+            <li class="pointer">Centre d'aide</li>
+            <li><a  href="mailto:staff@booki.fr" class="mail">Nous contacter</a></li>
         </ul>
         </div>
         </div>
