@@ -1,4 +1,4 @@
-@import url(./normalize.css);
+@import "./normalize.css";
 @font-face 
 {
     font-family: "railway";
@@ -172,7 +172,6 @@ ul
 {
     text-align: left;
     margin-left: 20px;
-    font-size: 0.9em;
 }
 .colonne1 /* COLONNES DANS LE FOOTER */
 {
@@ -217,7 +216,6 @@ h4
 {
     font-size: 1.1rem;
     margin-top: 0px;
-    line-height: normal;
 }
 .intro
 {
@@ -384,15 +382,15 @@ h4
 }
 .act
 {
-    margin: 15px;
-}
-.activites
-{
     
 }
+
 .card-activite
 {
-    padding: auto 20px;
+
+    padding: 15px 0px 15px 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .imgact
 {
@@ -400,23 +398,29 @@ h4
     border-radius: 15px 15px 0px 0px;
     max-width: 400px;
     width: 100%;
-    overflow: hidden;
+}
+.bloc-act
+{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin: 0px 15px 20px 15px;
 }
 .big
 {
-    aspect-ratio: 7/8.5;   
+    aspect-ratio: 6/7.4;   
 }
 .medium
 {
-    aspect-ratio: 6/4;
+    aspect-ratio: 6/3.5;
 }
 .small
 {
-    aspect-ratio: 14/7.5;
+    aspect-ratio: 14/7;
 }
 .smaller
 {
-    aspect-ratio: 19/7.5;
+    aspect-ratio: 19/7.9;
 }
 .margin
 {
