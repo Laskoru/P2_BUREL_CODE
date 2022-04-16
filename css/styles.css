@@ -72,7 +72,6 @@ ul
 }
 .pointinfo2
 {
-    padding-top: 10px;
     margin-left: 50px;
 }
 .pointmap /* ICONE MAP */
@@ -81,11 +80,13 @@ ul
 }
 .fa-info /*ICONE DU POINT INFO*/
 {
-    border: 4px solid #f2f2f2;
+    border: 2px solid #f2f2f2;
     float: left;
     border-radius: 50%;
-    padding: 7px 10px;
-    margin-left: 10px; 
+    width: 23px;
+    height: 23px;
+    line-height: 1.3;
+    text-align: center; 
 }
 .element3 /* MOT FILTRE */
 {
@@ -102,22 +103,27 @@ ul
 }
 .img1 /*ICONES DES FILTRES*/
 {
-    border: 12px solid #deebff;
+    border: 10px solid #deebff;
     border-radius: 50%;
     background: #deebff;
+    width: 16px;
+    height: 16px;
+    margin-left: -5px;
 }
 .textmenu /*MOTS DANS LES FILTRES*/
 {
     font-weight: bolder;
-    padding: 10px;
-    font-size: 1.3rem;
+    line-height: 2.2;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 1rem;
 }
 .intro-hebergement
 {
-    font-size: 2.6em;
+    font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
 
 }
 .card-rating /*ENSEMBLE DES NOTES*/
@@ -157,6 +163,10 @@ ul
 .populaire /*ENSEMBLE DES 3 BLOCS POPULAIRES */
 {
     border: 4px solid #f2f2f2;
+    height: auto;
+    padding-top: 30px;
+    
+    
 }
 
 .intro-activites
@@ -166,6 +176,7 @@ ul
 }
 .imgact
 {
+    
     border-radius: 15px 15px 0px 0px;
 }
 .card-activite
@@ -206,7 +217,7 @@ h5
 {
     cursor: pointer;
 }
-@media screen and (min-width: 992px) /*ECRAN CLASSIQUE*/
+@media screen and (min-width: 991px) /*ECRAN CLASSIQUE*/
 {
 h2
 {
@@ -252,6 +263,11 @@ h4
 {
     border: 12px solid #f2f2f2;
 }
+.pointinfo2
+{
+    border-radius: 30px;
+    padding-top: 5px;
+}
 .searchTerm 
 {
     border: 1px solid #f2f2f2;
@@ -278,8 +294,8 @@ h4
 }
 .intro-hebergement
 {   
-    margin: 10px 10px 0px 30px;
-    padding-right: 220px;
+    margin: 10px 0px 10px 30px;
+    width: 100%;
     font-size: 2rem;
    
 }
@@ -291,32 +307,33 @@ h4
 }
 .card-hotel /*PHOTOS DES HOTELS*/
 {
-    max-height: 140px;
+    height: 150px;
+    width: 300px;
     object-fit: cover;
     border-radius: 5% 5% 0% 0%;
 }
 
 .card /*ANNONCE COMPLETE*/
 {
-    line-height: 10px;
     transition: 400ms;
-    margin: auto;
-    margin-bottom: 30px;
-    justify-content: center;
+    max-height: 280px;
+    margin: 15px;
+    
     
 }
 .hebergements /*BLOC HEBERGEMENT DE GAUCHE*/
 {
     flex-wrap: wrap;
-    max-width: 900px;
     height: auto;
     padding-top: 30px;
-    margin: 20px 30px 20px 10px;
+    justify-content: center;
+    
 }
 .footer-hebergement
 {
-    padding-right: 220px;
-    margin: 0px 0px 0px 25px;
+    
+    margin: 10px 0px 10px 50px;
+    width: 100%;
 }
 .fa-arrow-trend-up
 {
@@ -354,12 +371,14 @@ h4
 }
 .populaire /*ENSEMBLE DES 3 BLOCS POPULAIRES */
 {
-    max-width: 600px;
+    width: 600px;
+    max-width: 95%;
     height: auto;
     padding-top: 30px;
-    margin: 20px 30px 18px 10px;
     border-radius: 30px;
     position: relative;
+    align-items: center;
+    margin-left: 30px;
     
 }
 .card-pop, .act /*ANNONCE POPULAIRE*/
@@ -380,24 +399,19 @@ h4
     margin-left: 50px;
     margin-bottom: 30px;
 }
-.act
-{
-    
+.img1act,
+.img2act {
+    border-radius: 15px 15px 0px 0px;
+    width: 400px;
+    max-width: 100%;
+    object-fit: cover;
 }
-
 .card-activite
 {
 
     padding: 15px 0px 15px 0px;
     white-space: nowrap;
     text-overflow: ellipsis;
-}
-.imgact
-{
-    object-fit: cover;
-    border-radius: 15px 15px 0px 0px;
-    max-width: 400px;
-    width: 100%;
 }
 .bloc-act
 {
@@ -408,19 +422,19 @@ h4
 }
 .big
 {
-    aspect-ratio: 6/7.4;   
+    height: 450px;   
 }
 .medium
-{
-    aspect-ratio: 6/3.5;
+{  
+    height: 220px;
 }
 .small
 {
-    aspect-ratio: 14/7;
+    height: 180px;
 }
 .smaller
-{
-    aspect-ratio: 19/7.9;
+{ 
+    height: 145px;
 }
 .margin
 {
@@ -563,6 +577,7 @@ font-size: 0.8rem;
 {
     font-size: 2rem;
     padding-bottom: 10px;
+    margin: 20px auto;
 }
 .card-hotel-pop
 {
@@ -649,7 +664,8 @@ h4
 }
 .logo
 {
-    width: 150px;
+    width: 100px;
+    padding-bottom: 30px;
 }
 .intro-small
 {
@@ -675,8 +691,8 @@ h4
 }
 .intro-hebergement
 {
-    font-size:1.7rem;
-    margin: 20px 10px 0px 20px;
+    font-size:1.5rem;
+    margin: 20px 10px 0px 0px;
 }
 
 .intro-populaire
@@ -834,6 +850,7 @@ h3
     object-fit: cover;
     border-radius: 30px 30px 0px 0px;
 }
+
 .ulmenu
 {
     flex-wrap: wrap;
@@ -845,7 +862,7 @@ h3
 }
 footer
 {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .element4:active, .card:active, .card-pop:active, .act:active
 {
