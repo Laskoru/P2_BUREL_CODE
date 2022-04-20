@@ -452,15 +452,19 @@ h4
 }
 @media screen and (max-width: 991px)
 {
+.lien
+{
+    font-size: 1.8rem;
+}
 h1
 {
-    font-size: 1.2rem;
-    margin: 10px;
+    font-size: 1.5rem;
+    margin: 30px 0px 10px 0px;
     text-align: center;
 }
 h2
 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin: 10px;
     text-align: center;
 }
@@ -525,9 +529,17 @@ nav:link
     border-bottom: 4px solid #0065fc;
     width: 90%;
 }
+.pointmap
+{
+    border: 17.5px solid #f2f2f2;
+}
+.search
+{
+    margin: 15px auto;
+}
 .searchTerm
 {
-    padding: 10px;
+    padding: 15px;
     outline: none;
     border: none;
 }
@@ -544,7 +556,7 @@ nav:link
     border-radius: 30% 30% 30% 30%;
     cursor: pointer;
     font-size: 1em;
-    padding: 4px;
+    padding: 9px;
 }
 .search
 {
@@ -565,7 +577,7 @@ font-size: 0.8rem;
     height: 250px;
     width: 100%;
     object-fit: cover;
-    border-radius: 5% 5% 0% 0%;
+    border-radius: 15px 15px 0px 0px;
 }
 .act, .card
 {
@@ -624,11 +636,21 @@ font-size: 0.8rem;
 .ulmenu
 {
     flex-wrap: wrap;
+    margin: 30px auto;
+    align-items: center;
 }
-.intro-activites, .footer-hebergement
+.pointinfo
+{
+    font-size: 1.2rem;
+}
+.fa-info
+{
+    padding: 5px;
+}
+.intro-activites, .footer-hebergement, .intro-hebergement, .intro-populaire
 {
     margin: 30px 10px 30px 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 footer
 {
@@ -642,6 +664,10 @@ footer
 }
 @media screen and (max-width: 768px)
 {
+.lien
+{
+    font-size: 1rem;
+}
 h1
 {
     font-size: 1.4rem;
@@ -732,13 +758,13 @@ nav:link
 }
 .element
 {
-    border-bottom: 2px solid #f2f2f2;
+    border-bottom: 3.5px solid #f2f2f2;
     max-width: 50%;
     transition: 400ms;
 }
 .element:active
 {
-    border-bottom: 4px solid #0065fc;
+    border-bottom: 3.5px solid #0065fc;
     max-width: 50%;
 }
 .pointmap
@@ -756,7 +782,7 @@ nav:link
 }
 .icon
 {
-    border: 13px solid #0065fc;
+    border: 9px solid #0065fc;
     background: #0065fc;
     color: white;
     border-radius: 30% 30% 30% 30%;
@@ -767,9 +793,17 @@ nav:link
 {
     margin-bottom: 10px;
 }
+.img1
+{
+    padding: 5px;
+}
+.textmenu
+{
+    margin-top: 5px;
+}
 .element4
 {
-margin: 3px;
+margin: 7px;
 font-size: 0.8rem;
 }
 .card-hotel
