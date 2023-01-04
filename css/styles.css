@@ -187,7 +187,7 @@ ul
 .colonne1 /* COLONNES DANS LE FOOTER */
 {
     font-size: 1.2em;
-    line-height: 40px;
+    
 }
 .act
 {
@@ -445,6 +445,10 @@ h4
     padding-bottom: 1px;
     justify-content: space-between;
 }
+.colonne1
+{
+    line-height: 30px;
+}
 .ulmenu
   {
     align-items: center;
@@ -478,6 +482,10 @@ h4
 {
     font-size: 2rem;
     margin-bottom: 5px;
+}
+h5
+{
+    margin: 15px auto;
 }
 .logo
 {
@@ -661,6 +669,10 @@ footer
     box-shadow: 0 0 10px 5px #0065fc;
     cursor: pointer;   
 }
+.margin2
+{
+    margin: 0px auto;
+}
 }
 @media screen and (max-width: 768px)
 {
@@ -687,6 +699,10 @@ h3
 h4
 {
     font-size: 1rem;
+}
+h5
+{
+    margin: 15px auto;
 }
 .logo
 {
@@ -877,6 +893,10 @@ h3
     max-width: 90%;
     margin: 15px auto;
 }
+.margin2
+{
+    margin: 0px auto;
+}
 .imgact, .big, .small, .img-small
 {
     width: 100%;
@@ -889,10 +909,15 @@ h3
 {
     flex-wrap: wrap;
 }
-.intro-activites, .footer-hebergement
+.intro-activites
 {
-    margin: 30px 00px 10px 20px;
+    margin: 30px 00px 20px 20px;
     font-size: 1.5rem;
+}
+.footer-hebergement
+{
+    margin: 30px 00px 20px 20px;
+    font-size: 1.1rem;
 }
 footer
 {
